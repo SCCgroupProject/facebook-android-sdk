@@ -13,3 +13,6 @@ allprojects {
         mavenCentral()
     }
 }
+
+apply plugin: 'java'
+apply from: 'cobertura.gradle'
