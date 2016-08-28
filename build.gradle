@@ -11,9 +11,11 @@ buildscript {
 allprojects {
     repositories {
         mavenCentral()
-	apply plugin: 'java'
-	apply from: 'cobertura.gradle'
-	apply plugin: 'checkstyle'
+	
     }
 }
+
+apply plugin: 'java'
+	apply from: 'cobertura.gradle'
+	apply plugin: 'checkstyle'
 
