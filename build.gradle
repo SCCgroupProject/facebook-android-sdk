@@ -10,6 +10,16 @@ buildscript {
 
 }
 
+
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+	
+    }
+}
+
 android {
     // ...
 
@@ -22,14 +32,6 @@ android {
 apply plugin: 'java'
 	apply from: 'cobertura.gradle'
 	apply plugin: 'checkstyle'
-}
-
-allprojects {
-    repositories {
-        mavenCentral()
-	
-    }
-}
 
 
 
